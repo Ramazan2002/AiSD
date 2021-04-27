@@ -14,8 +14,6 @@ void getNumbers(int num, int array[]) {
 int main() {
     string a, b;
     int c;
-//     int ar[to_string(a).length()];
-//     int br[to_string(b).length()];
     cin >> a >> b >> c;
     sort(a.begin(), a.end());
     sort(b.begin(), b.end());

@@ -2,15 +2,6 @@
 #include "algorithm"
 using namespace std;
 
-void getNumbers(int num, int array[]) {
-    int x, k = 0;
-    while (num>0) {
-        x = num % 10;
-        array[k] = x;
-        k++;
-        num /= 10;
-    }
-}
 int main() {
     string a, b;
     int c;

@@ -26,12 +26,12 @@ void FU(int D[][maxV], int V) {
         }
     }
     int y = clock();
-    // for (i=0; i<V; i++) {
-    //     for (j=0; j<V; j++) {
-    //         cout << D[i][j] << "\t";
-    //     }
-    //     cout << endl;
-    // }
+    for (i=0; i<V; i++) {
+        for (j=0; j<V; j++) {
+            cout << D[i][j] << "\t";
+        }
+        cout << endl;
+    }
     cout << (y-x)/1000.0<<'\n';
     cout << t;
 }
@@ -42,7 +42,7 @@ int main() {
     cout<<"Введите матрицу весов ребер:\n";
     for (i=0; i<n; i++) {
         for (j=0; j<n; j++) {   
-            // cout<<"GR["<<i+1<<"]["<<j+1<<"] > ";
+            cout<<"GR["<<i+1<<"]["<<j+1<<"] > ";
             GR[i][j] = rand()%9+1;
         }
     }
